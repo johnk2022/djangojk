@@ -20,3 +20,7 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 
 super Prob
+
+
+python3 manage.py test
+python3 manage.py test todo.test_forms
