@@ -5,3 +5,7 @@ cd /workspace/.pip-modules/lib/python3.8/site-packages
 ls -la
 cd - 
 django-admin startproject django_todo .
+
+python3 manage.py runserver 
+
+python3 manage.py startapp todo
