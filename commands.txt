@@ -24,3 +24,7 @@ super Prob
 
 python3 manage.py test
 python3 manage.py test todo.test_forms
+
+pip3 install coverage
+coverage run --source=todo manage.py test
+coverage report
